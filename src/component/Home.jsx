@@ -13,10 +13,10 @@ const Home = () => {
                 
             </h2>
             <p className='text-[#8892b0] py-4 max-w-[700px]'> A tech enthusiast with experience in Web development and coding who is eager to learn, grasp and acquire more skills that the tech world can offer.</p>
-            <div>
+            {/*<div>
                 <button className='group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-300'>View Work
                 <span className='group-hover:duration-300'><HiArrowNarrowRight className='group-hover:ml-6 duration-300 ml-3 '/></span></button>
-            </div>
+  </div>*/}
         </div>
 
     </div>
