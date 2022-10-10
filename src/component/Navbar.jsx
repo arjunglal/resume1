@@ -68,18 +68,18 @@ const Navbar = () => {
             </ul>
 
         {/**Social Icons*/}
-        <div className='hidden lg:flex fixed fleex-col top-[250px] left-0'>
+        <div className='left-[-55px] flex fixed flex-col top-[250px] lg:left-0'>
             <ul>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-50px] lg:hover:ml-[-10px] duration-300 bg-blue-600'>
                     <a className='w-full flex justify-between items-center text-gray-300' href="https://www.linkedin.com/in/arjun-g-lal">LinkedIn<FaLinkedin size={30}/></a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-50px] lg:hover:ml-[-10px] duration-300 bg-[#333333]'>
                     <a className='w-full flex justify-between items-center text-gray-300' href="https://github.com/arjunglal">GitHUb<FaGithub size={30}/></a>
                 </li>
-                <li className='  w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+                <li className='  w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-50px] lg:hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                     <a className='w-full flex justify-between items-center text-gray-300' href="/">Mail<HiOutlineMail size={30}/></a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-50px] lg:hover:ml-[-10px] duration-300 bg-[#565f69]'>
                     <a className='w-full flex justify-between items-center text-gray-300' href={require('../assets/myresume.pdf')} download='my resume'>Resume<BsFillPersonLinesFill size={30}/></a>
                 </li>
             </ul>
